@@ -2,7 +2,7 @@
 
 use std::ops::{Deref, DerefMut};
 
-use bevy::prelude::{Bundle, Component};
+use bevy_ecs::prelude::{Bundle, Component};
 use rhai::*;
 
 /// An [`Engine`] component.

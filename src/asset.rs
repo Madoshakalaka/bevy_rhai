@@ -1,9 +1,12 @@
 //! Contains Bevy asset-related items for Rhai.
 
-use bevy::{asset::*, reflect::TypeUuid};
+use bevy_asset::{AssetLoader, BoxedFuture, LoadContext, LoadedAsset};
+use bevy_reflect::TypeUuid;
 use rhai::*;
 
 /// A compiled Rhai script [`Asset`].
+///
+/// [`Asset`]: bevy_asset::Asset
 #[derive(Debug, Clone, TypeUuid)]
 #[uuid = "fe38f050-725f-490e-8233-0692482b13aa"]
 pub struct RhaiScript {

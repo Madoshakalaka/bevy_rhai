@@ -9,7 +9,8 @@ pub mod asset;
 pub mod components;
 
 use asset::*;
-use bevy::prelude::*;
+use bevy_app::prelude::*;
+use bevy_asset::AddAsset;
 
 /// Adds Rhai functionality to an application.
 pub struct RhaiPlugin;
