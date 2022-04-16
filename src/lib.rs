@@ -6,7 +6,7 @@
 #![forbid(missing_docs)]
 
 pub mod asset;
-pub mod components;
+pub mod component;
 
 use asset::*;
 use bevy_app::prelude::*;
@@ -30,5 +30,5 @@ pub mod prelude {
 
   pub use super::RhaiPlugin;
   pub use asset::*;
-  pub use components::*;
+  pub use component::*;
 }
