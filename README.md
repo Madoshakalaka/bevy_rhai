@@ -19,7 +19,7 @@ How versions of Bevy Rhai relate to Bevy versions.
 
 | Bevy | Bevy Rhai |
 | :--: | :-------: |
-| 0.7  |    0.2    |
+| 0.7  |  0.2–0.3  |
 | 0.6  |    0.1    |
 
 ## Licence
