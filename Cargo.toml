@@ -12,13 +12,14 @@ keywords = ["bevy", "rhai"]
 categories = ["game-development"]
 
 [dependencies]
-bevy_ecs = "0.7"
-bevy_asset = "0.7"
-bevy_reflect = "0.7"
-bevy_app = "0.7"
+
+bevy_ecs = {  git = "https://github.com/bevyengine/bevy.git"}
+bevy_asset = {  git = "https://github.com/bevyengine/bevy.git"}
+bevy_reflect = {  git = "https://github.com/bevyengine/bevy.git"}
+bevy_app ={  git = "https://github.com/bevyengine/bevy.git"}
 
 rhai = { version = "1.6", features = ["sync"] }
 anyhow = "1.0"
 
 [dev-dependencies]
-bevy = { version = "0.7", features = ["dynamic"] }
+bevy = {   git = "https://github.com/bevyengine/bevy.git", features = ["dynamic"] }
